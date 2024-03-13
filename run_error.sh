@@ -8,5 +8,5 @@ gcc error.c
 echo "------------------- C --------------------"
 echo ""
 echo "--------------- PROCESSING ---------------"
-timeout 5s processing-java --sketch=$(pwd) --run
+timeout 10s processing-java --sketch=$(pwd) --run
 echo "--------------- PROCESSING ---------------"
